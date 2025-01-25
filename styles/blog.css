@@ -45,7 +45,6 @@ body {
     border-radius: 8px;
     margin-bottom: 1rem;
     padding: 1rem;
-    /* Updated to use modern color-function notation */
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
   }
   
