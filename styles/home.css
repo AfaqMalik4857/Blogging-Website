@@ -1,6 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-  }
-  
-  
+a {
+  color: #111; /* Shortened hex color */
+  font-size: 16pt;
+}
+
+div {
+  color: #222; /* Shortened hex color */
+  font-size: 18pt;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Ensure there is a newline at the end of the file */
