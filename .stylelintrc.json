@@ -1,16 +1,11 @@
-{
-  "extends": "stylelint-config-standard",
-  "rules": {
+module.exports = {
+  extends: "stylelint-config-standard",
+  rules: {
+    "block-no-empty": true,
     "declaration-block-no-duplicate-properties": true,
     "no-duplicate-selectors": true,
-    "property-no-unknown": true,
-    "value-keyword-case": [
-      "lower",
-      {
-        "ignoreKeywords": ["inherit", "initial", "unset"]
-      }
-    ],
-    "selector-type-no-unknown": true,
-    "block-no-empty": true
+    "property-case": "lower",
+    "value-keyword-case": "lower",
+    "selector-type-case": "lower"
   }
-}
+};
