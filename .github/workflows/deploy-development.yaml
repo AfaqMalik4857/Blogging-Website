@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +28,6 @@ jobs:
 
       - name: Build static website
         run: npx parcel build src/home.html --dist-dir dist --public-url ./
-
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -41,7 +41,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
