@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #07c;
+    background-color: #07c; /* Shortened hex color code */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -45,7 +45,9 @@ body {
     border-radius: 8px;
     max-width: 500px;
     margin: 0 auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0 / 10%);
+  
+    /* Fixed modern color-function notation and alpha value */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
   }
   
   .contact-form h2 {
@@ -71,7 +73,9 @@ body {
     width: 100%;
     padding: 0.7rem;
     margin-top: 1rem;
-    background-color: #0077cc;
+  
+    /* Shortened hex color code */
+    background-color: #07c;
     color: white;
     border: none;
     border-radius: 4px;
