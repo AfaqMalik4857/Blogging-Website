@@ -39,24 +39,46 @@ main {
   padding: 2rem;
 }
 
-.blog-posts article {
+.contact-form {
   background: #fff;
-  border: 1px solid #ddd;
   border-radius: 8px;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
   box-shadow: 0 2px 4px #0000001a;
 }
 
-.blog-posts article h2 {
+.contact-form h2 {
+  text-align: center;
   margin-top: 0;
 }
 
-.blog-posts article a {
-  color: #07c;
+.contact-form label {
+  margin: .5rem 0 .2rem;
+  display: block;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  padding: .5rem;
+}
+
+.contact-form button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #07c;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
   margin-top: 1rem;
-  text-decoration: none;
-  display: inline-block;
+  padding: .7rem;
+  display: block;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
 }
 
 footer {
@@ -65,4 +87,4 @@ footer {
   background-color: #333;
   padding: 1rem;
 }
-/*# sourceMappingURL=blog.121a4251.css.map */
+/*# sourceMappingURL=contact.4f0f6534.css.map */

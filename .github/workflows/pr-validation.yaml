@@ -45,4 +45,3 @@ jobs:
 
       - name: Build Static Website
         run: npx parcel build src/home.js --dist-dir dist --public-url ./
-
